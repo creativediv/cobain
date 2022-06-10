@@ -167,13 +167,7 @@ section {
   padding: 12px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
-.fixed-top {
-  position: fixed;
-  top: 0.5rem;
-  right: 6rem;
-  left: 6rem;
-  z-index: 1030;
-}
+
 .header .logo {
   line-height: 0;
 }
@@ -303,7 +297,13 @@ section {
     left: -100%;
   }
 }
-
+.fixed-top {
+  position: fixed;
+  top: 0.5rem;
+  right: 6rem;
+  left: 6rem;
+  z-index: 1030;
+}
 /**
 * Mobile Navigation 
 */
@@ -399,7 +399,13 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
