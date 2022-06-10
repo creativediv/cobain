@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #444444;
 }
 
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -157,28 +157,36 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  transition: all 0.5s;
+  transition: all 0.4s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 13px 0;
 }
 .header.header-scrolled {
   background: #fff;
-  padding: 15px 0;
+  border-radius: 7px;
+  padding: 12px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+.fixed-top {
+  position: fixed;
+  top: 0.5rem;
+  right: 6rem;
+  left: 6rem;
+  z-index: 1030;
 }
 .header .logo {
   line-height: 0;
 }
 .header .logo img {
-  max-height: 40px;
+  max-height: 35px;
   margin-right: 6px;
 }
 .header .logo span {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 3px;
 }
 
@@ -207,7 +215,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #013289;
@@ -507,7 +515,7 @@ section {
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -578,7 +586,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
 
