@@ -160,7 +160,12 @@ section {
   transition: all 0.4s;
   z-index: 997;
   padding: 13px 0;
+  position: fixed;
+  top: 0.5rem;
+  right: 6rem;
+  left: 6rem;
 }
+
 .header.header-scrolled {
   background: #fff;
   border-radius: 7px;
@@ -193,6 +198,13 @@ section {
 .navbar {
   padding: 0;
 }
+/* .fixed-top { 
+  position: fixed;
+  top: 0.5rem;
+  right: 6rem;
+  left: 6rem;
+  z-index: 1030;
+}*/
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -297,13 +309,7 @@ section {
     left: -100%;
   }
 }
-.fixed-top {
-  position: fixed;
-  top: 0.5rem;
-  right: 6rem;
-  left: 6rem;
-  z-index: 1030;
-}
+
 /**
 * Mobile Navigation 
 */
@@ -317,6 +323,14 @@ section {
 }
 .mobile-nav-toggle.bi-x {
   color: #fff;
+}
+@media (max-width: 1280px) {
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
 }
 
 @media (max-width: 991px) {
@@ -399,13 +413,7 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
