@@ -324,7 +324,7 @@ section {
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
   .header {
     position: fixed;
     top: 0;
