@@ -159,7 +159,7 @@ section {
 .header {
   transition: all 0.4s;
   z-index: 997;
-  padding: 13px 0;
+  padding: 13px;
   position: fixed;
   top: 0.5rem;
   right: 6rem;
@@ -168,8 +168,8 @@ section {
 
 .header.header-scrolled {
   background: #fff;
-  border-radius: 7px;
-  padding: 12px 0;
+  border-radius: 50px;
+  padding: 19px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
@@ -330,6 +330,10 @@ section {
     top: 0;
     right: 0;
     left: 0;
+    border-radius: 7px;
+  }
+  .header.header-scrolled {
+    border-radius: 0px;
   }
 }
 
