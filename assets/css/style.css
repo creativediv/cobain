@@ -545,6 +545,11 @@ section {
 .about .btn-read-more:hover i {
   transform: translateX(5px);
 }
+@media (max-width: 1306px) {
+  .about {
+    padding: 20px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Values
