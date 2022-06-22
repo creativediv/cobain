@@ -312,6 +312,7 @@ section {
     border-radius: 50px;
     padding: 19px;
     background: #ff8955;
+  }
 }
 
 /**
@@ -328,7 +329,7 @@ section {
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }
-@media (max-width: 1306px) {
+@media (max-width: 560px) {
   .header {
     position: fixed;
     top: 0;
@@ -336,7 +337,7 @@ section {
     left: 0;
   }
   .header.header-scrolled {
-    border-radius: 20px;
+    border-radius: 0px;
     background: #ff8955;
   }
 }
